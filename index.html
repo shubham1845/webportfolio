@@ -1,206 +1,347 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Shubham</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shubham</title>
 
-	<!-- External CSS -->
-	<link rel="stylesheet" type="text/css" href="./index.css">
-	<!-- bootstrap link -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<!-- Google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-		<div class="container-fluid">
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-				<div class="navbar-nav">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
-					<a class="nav-link" href="#project">Project</a>
-					<a class="nav-link" href="#tools">Tool</a>
-					<a class="nav-link" href="#contact">Contact</a>
-				</div>
-			</div>
-		</div>
-	</nav>
-	<!-- End of Navbar -->
-	<!-- Header section -->
-	<section class="container-fluid" id="header">
-		<div class="row h-100">
-			<div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center">
-				<img src="./images/shubham.jpg" class="img-fluid " id="selfimg" alt="Shubham Singh">
-			</div>
-			<div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-				<div>
-					<h3>Shubham Singh</h3>
-					<p>Hello! I am a  <strong>Full Stack Developer</strong> with various projects and experience in the web development field. I would love to work for you.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<div id="project">
-		<h3>My Projects</h3>
-		<div class="d-flex justify-content-center align-items-stretch flex-wrap">
-			<div class="card mx-3 my-3">
-				<img src="./images/fot.jpg" class="card-img-top" alt="Card Image 1">
-				<div class="card-body d-flex flex-column">
-					<p class="card-text">Experience the perfect balance with our latest creation: the Foot Balance Nepal website. We've crafted a seamless online platform that showcases Foot Balance's dedication to comfort and wellness. Explore our site to discover innovative footwear solutions designed to support your every step. Whether you're looking for ergonomic designs or professional fitting services, Foot Balance Nepal is your trusted companion for achieving optimal foot health. Step into comfort and explore our offerings today!.</p>
-					<a href="#" class="btn btn-primary mt-auto">Read More</a>
-				</div>
-			</div>
-			<div class="card mx-3 my-3">
-				<img src="./images/school.jpeg" class="card-img-top" alt="Card Image 2">
-				<div class="card-body d-flex flex-column">
-					<p class="card-text">Welcome to the new school website. Discover our comprehensive curriculum, extracurricular activities, and the latest updates on school events. With user-friendly navigation and engaging content, our website is your go-to resource for staying informed about academic achievements, upcoming projects, and the vibrant school community. Join us on this journey of learning, growth, and discovery at ABC academy</p>
-					<a href="#" class="btn btn-primary mt-auto">Read More</a>
-				</div>
-			</div>
-			<div class="card mx-3 my-3">
-				<img src="./images/library.jpg" class="card-img-top" alt="Card Image 2">
-				<div class="card-body d-flex flex-column">
-					<p class="card-text">Some quick example text to build on the card title and make up the Welcome to our virtual library, your gateway to a world of knowledge and imagination. Whether you're exploring new genres or conducting research, our library website offers convenient access to a wealth of information. Join us in celebrating the joy of reading and lifelong learning at central library. Explore, learn, and expand your horizons with us today!</p>
-					<a href="#" class="btn btn-primary mt-auto">Read More</a>
-				</div>
-			</div>
-		</div>
-	</div>
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#project">Project</a>
+            <a class="nav-link" href="#tools">Tool</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Header section -->
+    <section class="container-fluid" id="header">
+      <div class="row h-100">
+        <div
+          class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center"
+        >
+          <img
+            src="./images/shubham.jpg"
+            class="img-fluid"
+            id="selfimg"
+            alt="Shubham Singh"
+          />
+        </div>
+        <div
+          class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+        >
+          <div>
+            <h3>Shubham Singh</h3>
+            <p>
+              Hello! I am a <strong>Full Stack Developer</strong> with various
+              projects and experience in the web development field. I would love
+              to work for you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<div class="container my-5 py-5" id="tools">
-		<div class="text-center mb-4">
-			<h3>TOOLS</h3>
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-12 col-md-4 mb-4">
-				<h4 class="text-center">Frontend</h4>
-				<div class="row justify-content-center">
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo-html5.png" class="img-fluid">
-					</div>
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo-javascript.png" class="img-fluid">
-					</div>
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo-css3.png" class="img-fluid">
-					</div>
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo-bootstrap.png" class="img-fluid">
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-md-4 mb-4">
-				<h4 class="text-center">MERN</h4>
-				<div class="row justify-content-center">
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo-mongodb.png" class="img-fluid">
-					</div>
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo-nodejs.png" class="img-fluid">
-					</div>
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo-react.png" class="img-fluid">
-					</div>
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo-expressjs.png" class="img-fluid">
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-md-4 mb-4">
-				<h4 class="text-center">Other Tools</h4>
-				<div class="row justify-content-center">
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo6.png" class="img-fluid">
-					</div>
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo-heroku.png" class="img-fluid">
-					</div>
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo-git.png" class="img-fluid">
-					</div>
-					<div class="col-6 col-md-auto mb-3 mb-md-0">
-						<img src="./images/logo-postman.png" class="img-fluid">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- tools end -->
-	<!-- Contact Form -->
-	<div class="text-center" id="contact">
-		<h4>Contact Section</h4>
-		<div>
-			<h3>Contact</h3>
-			<div class="d-flex justify-content-center p-3 ">
-				<a href="https://www.facebook.com/shubham.shing.009" target="_blank">
-					<img src="./images/fbicon.png">
-				</a>
-				<a href="https://github.com/shubham1845"target="_blank">
-					<img src="./images/giticon.png" >
-				</a>
-				<a href="https://www.linkedin.com/in/shubham-singh-700a14260/" target="_blank">
-					<img src="./images/linkdinicon.png">
-				</a>
-				<a href="https://www.instagram.com/shubhamshing009/" target="_blank">
-					<img src="./images/instaicon.png">
-				</a>
-			</div>
-		</div>
-		<div class="d-flex">
-			<div class="container">
-				<div class=" my-1 py-3" id="contact">
-					<div class="container my-5 py-5">
-						<div class="row justify-content-center">
-							<div class="col-md-8">
-								<div class="card">
-									<div class="card-body">
-										<h4 class="card-title text-center mb-4">Contact Me</h4>
-										<form>
-											<div class="mb-3">
-												<label for="name" class="form-label">Your Name</label>
-												<input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-											</div>
-											<div class="mb-3">
-												<label for="email" class="form-label">Your Email</label>
-												<input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-											</div>
-											<div class="mb-3">
-												<label for="message" class="form-label">Message</label>
-												<textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
-											</div>
-											<div class="text-center">
-												<button type="submit" class="btn btn-primary">Submit</button>
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+    <div id="project">
+      <h3>My Projects</h3>
+      <div class="d-flex justify-content-center align-items-stretch flex-wrap">
+        <div class="card mx-3 my-3">
+          <img src="./images/fot.jpg" class="card-img-top" alt="Card Image 1" />
+          <div class="card-body d-flex flex-column">
+            <p class="card-text">
+              Experience the perfect balance with our latest creation: the Foot
+              Balance Nepal website. We've crafted a seamless online platform
+              that showcases Foot Balance's dedication to comfort and wellness.
+              Explore our site to discover innovative footwear solutions
+              designed to support your every step. Whether you're looking for
+              ergonomic designs or professional fitting services, Foot Balance
+              Nepal is your trusted companion for achieving optimal foot health.
+              Step into comfort and explore our offerings today!.
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Read More</a>
+          </div>
+        </div>
+        <div class="card mx-3 my-3">
+          <img
+            src="./images/school.jpeg"
+            class="card-img-top"
+            alt="Card Image 2"
+          />
+          <div class="card-body d-flex flex-column">
+            <p class="card-text">
+              Welcome to the new school website. Discover our comprehensive
+              curriculum, extracurricular activities, and the latest updates on
+              school events. With user-friendly navigation and engaging content,
+              our website is your go-to resource for staying informed about
+              academic achievements, upcoming projects, and the vibrant school
+              community. Join us on this journey of learning, growth, and
+              discovery at ABC academy
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Read More</a>
+          </div>
+        </div>
+        <div class="card mx-3 my-3">
+          <img
+            src="./images/library.jpg"
+            class="card-img-top"
+            alt="Card Image 2"
+          />
+          <div class="card-body d-flex flex-column">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              Welcome to our virtual library, your gateway to a world of
+              knowledge and imagination. Whether you're exploring new genres or
+              conducting research, our library website offers convenient access
+              to a wealth of information. Join us in celebrating the joy of
+              reading and lifelong learning at central library. Explore, learn,
+              and expand your horizons with us today!
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start of tools section -->
+    <div class="container my-5 py-5" id="tools">
+      <div class="text-center mb-4">
+        <h3>TOOLS</h3>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-4 mb-4">
+          <h4 class="text-center">Frontend</h4>
+          <div class="row justify-content-center">
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo-html5.png"
+                class="img-fluid"
+                alt="HTML5 Logo"
+              />
+            </div>
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo-javascript.png"
+                class="img-fluid"
+                alt="JavaScript Logo"
+              />
+            </div>
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo-css3.png"
+                class="img-fluid"
+                alt="CSS3 Logo"
+              />
+            </div>
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo-bootstrap.png"
+                class="img-fluid"
+                alt="Bootstrap Logo"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <h4 class="text-center">MERN</h4>
+          <div class="row justify-content-center">
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo-mongodb.png"
+                class="img-fluid"
+                alt="MongoDB Logo"
+              />
+            </div>
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo-nodejs.png"
+                class="img-fluid"
+                alt="Node.js Logo"
+              />
+            </div>
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo-react.png"
+                class="img-fluid"
+                alt="React Logo"
+              />
+            </div>
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo-expressjs.png"
+                class="img-fluid"
+                alt="Express.js Logo"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <h4 class="text-center">Other</h4>
+          <div class="row justify-content-center">
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo6.png"
+                class="img-fluid"
+                alt="Tool 6 Logo"
+              />
+            </div>
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo-heroku.png"
+                class="img-fluid"
+                alt="Heroku Logo"
+              />
+            </div>
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo-git.png"
+                class="img-fluid"
+                alt="Git Logo"
+              />
+            </div>
+            <div class="col-6 col-sm-4 col-md-auto mb-3">
+              <img
+                src="./images/logo-postman.png"
+                class="img-fluid"
+                alt="Postman Logo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tools end -->
+    <!-- Contact Form -->
+    <div class="text-center" id="contact">
+      <h4>Contact Section</h4>
+      <div>
+        <h3>Contact</h3>
+        <div class="d-flex justify-content-center p-3">
+          <a href="https://www.facebook.com/shubham.shing.009" target="_blank">
+            <img src="./images/fbicon.png" />
+          </a>
+          <a href="https://github.com/shubham1845" target="_blank">
+            <img src="./images/giticon.png" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/shubham-singh-700a14260/"
+            target="_blank"
+          >
+            <img src="./images/linkdinicon.png" />
+          </a>
+          <a href="https://www.instagram.com/shubhamshing009/" target="_blank">
+            <img src="./images/instaicon.png" />
+          </a>
+        </div>
+      </div>
+      <div class="d-flex">
+        <div class="container">
+          <div class="my-1 py-3" id="contact">
+            <div class="container my-5 py-5">
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title text-center mb-4">Contact Me</h4>
+                      <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Your Name</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder="Enter your name"
+                            required
+                          />
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label"
+                            >Your Email</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="Enter your email"
+                            required
+                          />
+                        </div>
+                        <div class="mb-3">
+                          <label for="message" class="form-label"
+                            >Message</label
+                          >
+                          <textarea
+                            class="form-control"
+                            id="message"
+                            rows="5"
+                            placeholder="Enter your message"
+                            required
+                          ></textarea>
+                        </div>
+                        <div class="text-center">
+                          <button type="submit" class="btn btn-primary">
+                            Submit
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Contact Form -->
+    <!-- Start Footer -->
+    <footer id="footer" class="p-4 d-flex d-grid gap-3 justify-content-center">
+      <div>&copy; 2024 My Website.</div>
+      <div>|</div>
+      <div>All rights reserved.</div>
+    </footer>
 
-				</div>
+    <!-- End Footer -->
 
-			</div>
-		</div>
-	</div>
-	<!-- End of Contact Form -->
-	<!-- Start Footer -->
-	<footer id="footer" class="p-4 d-flex d-grid gap-3 justify-content-center">
-		<div>&copy;  2024 My Website.</div>
-		<div>|</div>
-		<div>All rights reserved.</div>
-	</footer>
-
-	<!-- End Footer -->
-
-	
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

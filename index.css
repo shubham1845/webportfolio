@@ -1,98 +1,98 @@
-*{
-	padding: 0;
-	margin: 0;
-	font-family: "Merriweather",sans-serif;
-	color: #075958;
-
-
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Merriweather", sans-serif;
+  color: #075958;
 }
 
 #navbar {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: #fff; /* Background color to avoid content overlap */
-    z-index: 1000; /* Ensures the navbar stays on top of other content */
-    box-shadow: 0 2px 1px -2px gray; /* Optional: Adds a shadow for better visibility */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff; /* Background color to avoid content overlap */
+  z-index: 1000; /* Ensures the navbar stays on top of other content */
+  box-shadow: 0 2px 1px -2px gray; /* Optional: Adds a shadow for better visibility */
 }
 
-#navbar a{
-	font-size: 25px;
-	font-weight: bold;
-	color: #075958;
+#navbar a {
+  font-size: 25px;
+  font-weight: bold;
+  color: #075958;
 }
 
-#header{
-	min-height: 50vh;
-	background: 
-	linear-gradient(90deg, rgba(2,0,36,1) 0%,
-		rgba(67,65,118,1) 0%,
-		rgba(154,152,227,1) 0%, 
-		rgba(220,219,255,1) 0%, 
-		rgba(205,205,219,1) 0%, 
-		rgba(235,235,250,1) 0%, 
-		rgba(241,241,249,1) 0%, 
-		rgba(174,221,235,1) 100%, 
-		rgba(171,234,247,1) 100%, 
-		rgba(0,212,255,1) 100%);
+#header {
+  min-height: 50vh;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(67, 65, 118, 1) 0%,
+    rgba(154, 152, 227, 1) 0%,
+    rgba(220, 219, 255, 1) 0%,
+    rgba(205, 205, 219, 1) 0%,
+    rgba(235, 235, 250, 1) 0%,
+    rgba(241, 241, 249, 1) 0%,
+    rgba(174, 221, 235, 1) 100%,
+    rgba(171, 234, 247, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
 
-	padding-top: 40px;	
+  padding-top: 40px;
 }
-#header p{
-	font-size: 18px;
-	line-height: 30px;
+#header p {
+  font-size: 18px;
+  line-height: 30px;
 }
-#selfimg{
-	height: 230px;
-	width: 230px;
-	border-radius: 100%;
-	padding-right:10px ;
+#selfimg {
+  height: 230px;
+  width: 230px;
+  border-radius: 100%;
+  padding-right: 10px;
 }
-#project{
-	margin: 40px;
+#project {
+  margin: 40px;
 }
-#project h3{
-	font-size: 40px;
-	text-align: center;
-	font-weight: 700;
+#project h3 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+#project .card {
+  width: 18rem;
+}
 
+#tools img {
+  height: 120px;
+  width: 120px;
+  /*	background-color: red;*/
+  padding: 10px;
 }
-#project .card{
-	width: 18rem;
+#tools h3 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+#tools h4 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 300;
+}
+#contact img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  padding: 5px;
+}
+#contact h4 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+#contact h3 {
+  font-size: 40px;
+  text-align: center;
+}
+#footer {
+  background-color: #f0f2f2;
 }
 
-#tools img{
-	height: 120px;
-	width: 120px;
-/*	background-color: red;*/
-	padding: 10px;
-
-}
-#tools h3{
-	font-size: 50px;
-	font-weight: 700;
-	text-align: center;
-}
-#tools h4{
-	font-size: 40px;
-	text-align: center;
-	font-weight: 300;
-}
-#contact img{
-	height: 50px;
-	width: 50px;
-	border-radius: 100%;
-	padding: 5px;
-}
-#contact h4{
-	font-size: 50px;
-	font-weight: 700;
-	text-align: center;
-}
-#contact h3{
-	font-size: 40px;
-	text-align: center;
-}
-#footer{
-	background-color:#f0f2f2 ;
-}
+/* Custom CSS for pyramid layout on small devices */
